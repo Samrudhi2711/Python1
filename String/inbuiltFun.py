@@ -58,5 +58,31 @@ txt = "50800"
 x = txt.isdigit()
 print(x)
 
+#concatination
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+#string format
+age = 36
+txt = "My name is John, I am " ,age
+print(txt)
+
+#To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+
+
 
 
